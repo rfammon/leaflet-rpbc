@@ -1,5 +1,5 @@
 ol.proj.proj4.register(proj4);
-//ol.proj.get("EPSG:31983").setExtent([352720.638071, 7358067.385246, 356471.658934, 7360197.157130]);
+//ol.proj.get("EPSG:31983").setExtent([352052.357638, 7358191.062789, 355587.211971, 7360320.834672]);
 var wms_layers = [];
 
 
@@ -43,10 +43,6 @@ var group_Imagens = new ol.layer.Group({
                                 layers: [lyr_GoogleSatellite_0,],
                                 fold: "open",
                                 title: "Imagens"});
-var group_Transporte = new ol.layer.Group({
-                                layers: [],
-                                fold: "open",
-                                title: "Transporte"});
 
 lyr_GoogleSatellite_0.setVisible(true);lyr_AREASVERDES_RPBC_1.setVisible(true);
 var layersList = [group_Imagens,group_AREASRPBC];
